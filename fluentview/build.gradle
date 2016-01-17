@@ -1,5 +1,27 @@
 apply plugin: 'com.android.library'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'fluent-view'
 
+    publishedGroupId = 'com.github.nantaphop'
+    libraryName = 'FluentView'
+    artifact = 'fluentview'
+
+    libraryDescription = 'Android Library for Setting a View via Fluent Interface'
+
+    siteUrl = 'https://github.com/nantaphop/FluentView'
+    gitUrl = 'https://github.com/nantaphop/FluentView.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'nantaphop'
+    developerName = 'Nantaphop Phuengphae'
+    developerEmail = 'nantaphop.p@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "22.0.1"
@@ -23,3 +45,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

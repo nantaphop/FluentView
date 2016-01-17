@@ -18,10 +18,14 @@ android {
         }
     }
 }
-
+repositories {
+    maven {
+        url 'https://dl.bintray.com/nantaphop/maven/'
+    }
+}
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'
-    compile project(':fluentview')
+    compile 'com.github.nantaphop:fluentview:1.0.0'
 }
