@@ -1,6 +1,8 @@
 # FluentView
 Android Library for Setting a View via Fluent Interface
 
+
+![](http://i68.tinypic.com/k1p26c.jpg)
 #Welcome for Pull Request 
 
 ##Features
