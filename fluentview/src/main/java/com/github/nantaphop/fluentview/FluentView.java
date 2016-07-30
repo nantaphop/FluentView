@@ -22,6 +22,10 @@ public class FluentView {
         this.view = view;
     }
 
+    public View getView() {
+        return view;
+    }
+
     public FluentView setAccessibilityDelegate(View.AccessibilityDelegate delegate) {
         view.setAccessibilityDelegate(delegate);
         return this;
