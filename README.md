@@ -3,12 +3,12 @@ Android Library for Setting a View via Fluent Interface
 
 
 ![](http://i68.tinypic.com/k1p26c.jpg)
-#Welcome for Pull Request 
+# Welcome for Pull Request 
 
-##Features
+## Features
 Set up Android View via fluent interface style. Basically, you can use most of setter for that view. CustomView is welcome but you have to casting it by yourself.
 
-#Setup
+# Setup
 **Gradle (jCenter)**
 ```
 dependencies {
@@ -64,7 +64,7 @@ dependencies {
     }
 ```
 
-##Avalible Fluent View Support
+## Avalible Fluent View Support
 - FluentView
 - FluentTextView
 - FluentEditText
@@ -79,7 +79,7 @@ dependencies {
 - FluentProgressBar
 - FluentSeekBar
 
-#License
+# License
 ```
 Copyright 2016 Nantaphop Phuengphae
 
